@@ -1,0 +1,277 @@
+/*!
+ * Start Bootstrap - Business Frontpage (https://startbootstrap.com/template/business-frontpage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+ 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {  
+  .carousel-indicators {
+    display: none;
+  }
+  .serviceMainTitle {
+    font-size: 5em;
+  }
+ }
+ /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+ @media screen and (max-width: 768px) {  
+  
+ }
+  
+ /* Large devices (desktops, 992px and up) */
+ @media screen and (max-width: 992px) { 
+  
+ }
+  
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media screen and (min-width: 1200px) {  
+     
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+ }
+ html, body {
+   height: 100%;
+   width: 100%;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ /*COLORS 
+ #8a2727 (Red)
+ #23296d (Blue)
+ */
+ 
+ 
+ .navbar {
+   padding: .8rem;
+   font-size: 2em;
+   
+ }
+ 
+ .navbar-nav li {
+   padding-right: 20px;
+   
+ }
+ 
+ .nav-link {
+   font-size: 1.1em !important;
+ }
+ 
+ 
+ /*ANCHOR FOR SERVICES*/
+ .anchor {
+   display:block;
+   padding-top: 100px;
+   margin-top:-100px;
+ }
+ 
+ 
+ .redBG {background-color: #8a2727;}
+ 
+ .carousel-inner img{
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .carousel-item {
+   width: 100%;
+   height: 800px;
+ }
+ 
+ .carousel-item img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ 
+   #logoStyle {width: 50%}
+ 
+   .serviceText {font-size: 14px;}
+ 
+ 
+   #callText {font-size: 15px;}
+ 
+ 
+ .mainTitle {
+   padding-top: 30px;
+   color: white;
+ }
+ 
+ main {background-color: #8a2727 ;}
+ 
+ .mainTitle2 {font-size: 3em;}
+ 
+ #address {
+   padding-top: 10px;
+   font-size: 1.5em;
+   padding-bottom: 60px;
+   color: white;
+ }
+ 
+ #address2 {
+   padding-top: 10px;
+   font-size: 1.5em;
+   padding-bottom: 60px;
+   color: black;
+ }
+ 
+ .pageTitle {
+   color: white;
+   font-size: 5em;
+ }
+ 
+ .pageTitle2 {
+   color: white;
+   font-size: 4em;
+ }
+ 
+ #ceoInfo {
+   padding-left: 2%;
+ }
+ 
+ .secondText {
+   font-size: 1.5em;
+   color: white; 
+ }
+ 
+ .aboutTitle {
+   font-size: 1.5em;
+   color: white;
+   
+ }
+ 
+ .about1 {
+   background-color: #23296d;
+   margin: 0%;
+   padding: 0%;
+ }
+ 
+ .aboutPics {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ 
+ #topAboutPic {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ #statementBlock {
+   padding: 100px;
+   margin-bottom: 150px;
+ }
+ 
+ #aboutUsText {
+   margin: auto;
+   padding: 1%;
+   
+ }
+ 
+ 
+ .about2 {
+  background-color: #8a2727;
+  padding: 2%;
+  /* margin: auto; */
+}
+ 
+#ceoPic {
+  max-width: 100%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+ }
+ .statement2 {
+   font-size: 1.5em;
+   font-style: italic;
+ }
+ 
+ .serviceMainTitle {
+   padding: 60px;
+   /* font-size: 6em; */
+   color: white;
+ }
+ 
+ .serviceTitle {
+   padding-top: 30px;
+   font-size: 2.5em;
+ }
+ 
+ .serviceTitle2 {
+   padding-top: 30px;
+   font-size: 3.5em;
+   font-weight: bold;
+   text-decoration: underline;
+   margin-bottom: 20px;
+ }
+ 
+ /* #thermo {right: 50%;} */
+ 
+ .serviceDesc {
+   font-size: 1.5em;
+   font-style: italic;
+   margin-bottom: 20px;
+ }
+ 
+ .serviceMain {
+   background-color: white;
+   margin: auto;
+   padding-top: 40px;
+   padding-bottom: 100px;
+ }
+ 
+ .serviceSection {margin-bottom: 80px;}
+ 
+ .servicePic {
+   border-radius: 50%;
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   border: solid black 10px;
+   margin: 10px;
+   
+ }
+ 
+ .serviceItem {
+   margin-left: 100px;
+   margin-right: 100px;
+ }
+ 
+ 
+ .row2 {margin-top: 100px;}
+ 
+ .divider {
+   background-color: black;
+   max-width: 1000px;
+   height: 10px;
+   margin: auto;
+ }
+ 
+ 
+ 
+ .marginDown {
+     margin-bottom: 250px;
+ }
+ 
+ #contactPhoto {
+   margin-top: 10%;
+   border-radius: 50%;
+   border: solid black 10px;
+   margin: 10px;
+   /* width: 100%; */
+ }
+ 
